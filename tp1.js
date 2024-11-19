@@ -10,4 +10,5 @@ console.log("le deuxiéme element du tableau est :", fruits[1]);
 let nbr = [10, 20, 30, 40];
 console.log("les nombres est :", nbr);
 //Modificaton :
-nb;
+nbr[3] = 50;
+console.log("le nouveau table", nbr);
