@@ -12,4 +12,16 @@ console.log("les nombres est :", nbr);
 //Modificaton :
 nbr[3] = 50;
 console.log("le nouveau table", nbr);
-//
+//Exercice 4 :
+//Ajouter un élémznt à la fin du tableau
+let fruits1 = ["mango", "peach", "pear"];
+console.log("l'affichage de tableau avant Ajoutez");
+for (let i = 0; i < fruits1.length; i++) {
+  console.log("fruit " + i + ": " + fruits1[i]);
+}
+console.log("l'affichage de tableau apres Ajoutez");
+//pour Ajoutez un élement :
+fruits1.push("banana");
+for (let i = 0; i < fruits1.length; i++) {
+  console.log("fruit " + i + ": " + fruits1[i]);
+}
