@@ -25,3 +25,13 @@ fruits1.push("banana");
 for (let i = 0; i < fruits1.length; i++) {
   console.log("fruit " + i + ": " + fruits1[i]);
 }
+// Exercice 5 :
+//Supprimer le dernier élément du tableau
+let animals = ["dog", "cat", "bird"];
+console.log("la Supprition de le dernier élément :");
+console.log("le tableau avant la supprition :");
+console.log(animals);
+// Methode de Supprition :
+animals.pop();
+console.log("le tableau apres la supprition :");
+console.log(animals);
