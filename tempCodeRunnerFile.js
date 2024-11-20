@@ -1,1 +1,0 @@
-console.log("Avec Methode Simple :");
