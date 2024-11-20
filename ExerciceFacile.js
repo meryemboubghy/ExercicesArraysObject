@@ -82,3 +82,12 @@ console.log(
     "\nle ans est :" +
     car.year
 );
+//Exercice 10 ==>Vérifier l'existence d'une propriété dans un objet
+let prsn = { name: "Meryem", age: 25 };
+//Methode 1:Methode Simple
+console.log("Avec Methode Simple :");
+console.log("age" in prsn);
+//Methode 2:avec hasOwnProperty
+console.log("Avec le Fonction hasOwnProperty :");
+ifExist = prsn.hasOwnProperty("age");
+console.log(ifExist);
