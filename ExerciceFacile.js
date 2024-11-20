@@ -35,3 +35,10 @@ console.log(animals);
 animals.pop();
 console.log("le tableau apres la supprition :");
 console.log(animals);
+// Exercice 6 :
+//les objet
+//création un objet simple
+let personne = { nom: "Meryem", age: 25 };
+console.log(
+  "votre nom est :" + personne.nom + "\nVotre age est : " + personne.age
+);
