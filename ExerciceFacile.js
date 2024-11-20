@@ -42,3 +42,8 @@ let personne = { nom: "Meryem", age: 25 };
 console.log(
   "votre nom est :" + personne.nom + "\nVotre age est : " + personne.age
 );
+// Exercice 7==>Accéder aux propriétés d'un objet
+console.log("L'accès aux propriétés d'un objet");
+let person = { nomPer: "John", agePer: 25 };
+console.log("Nom:", person["nomPer"]);
+console.log("Age:", person["agePer"]);
