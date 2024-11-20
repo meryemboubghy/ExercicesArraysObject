@@ -47,3 +47,38 @@ console.log("L'accès aux propriétés d'un objet");
 let person = { nomPer: "John", agePer: 25 };
 console.log("Nom:", person["nomPer"]);
 console.log("Age:", person["agePer"]);
+// Exercice 8 ==>Modifier une propriété d'un objet
+let book = { title: "JavaScript 101", author: "Jhon Doe" };
+console.log(
+  "avant la Modification :\n" +
+    "Title : " +
+    book.title +
+    "\nAuthor :" +
+    book.author
+);
+book.author = "Jane Doa";
+console.log(
+  "Apres la Modification :\n" +
+    "Title : " +
+    book.title +
+    "\nAuthor :" +
+    book.author
+);
+//Exercice :9==>Ajouter une nouvelle propriété à un objet
+let car = { make: "Toyota", model: "Corolla" };
+console.log(
+  "Avant Ajoutez une nouvelle propriété :\nLa marque est:" +
+    car.make +
+    "\nLe model est :" +
+    car.model
+);
+//pour Ajoutez une propriété
+car.year = 2020;
+console.log(
+  "Apres Ajoutez une nouvelle propriété :\nLa marque est:" +
+    car.make +
+    "\nLe model est :" +
+    car.model +
+    "\nle ans est :" +
+    car.year
+);
