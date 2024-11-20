@@ -8,3 +8,8 @@ for (let number of numbers) {
 let nombers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 let nbrPairs = nombers.filter((n) => n % 2 === 0);
 console.log("Les Nombres Pairs est :" + nbrPairs);
+// Exercice 13==>Fusionner deux tableaux
+let a = [1, 2, 3];
+let b = [4, 5, 6];
+let aEtb = a.concat(b);
+console.log("Fusionner deux tableaux :" + aEtb);
